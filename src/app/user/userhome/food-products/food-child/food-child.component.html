@@ -1,0 +1,13 @@
+<mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{names.Category}}</mat-card-title>
+      <mat-card-subtitle>{{names.Food}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image class="image-card" src="http://localhost/{{ names.image }}" alt="Category">
+    <mat-card-actions>
+      <a routerLink="/{{names.id}}"><button mat-button>Details</button>
+      </a>
+     
+    </mat-card-actions>
+</mat-card> 

@@ -1,0 +1,17 @@
+.example-card {
+    height:400px;
+    width:200px;
+    margin:20px;
+    float:left;
+  }
+  
+.example-header-image {
+    
+    background-size: cover;
+    height: fit-content;
+    width: fit-content;
+}
+.image-card {
+  height: 100px;
+  width: 150px;
+}
