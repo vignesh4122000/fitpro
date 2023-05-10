@@ -11,11 +11,11 @@ export class HomeService {
   constructor(private http:HttpClient) { }
 
   getDairyProducts():Observable<any> {
-    return this.http.get("http://localhost:4500/product");
+    return this.http.get("http://localhost:4500/Diet");
 
   } 
   getDetails(id:any): Observable<any> {
-    return this.http.get("http://localhost:4500/product/"+id);
+    return this.http.get("http://localhost:4500/Diet/"+id);
  }
 
 }

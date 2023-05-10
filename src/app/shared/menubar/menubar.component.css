@@ -32,3 +32,6 @@ a:hover{
 a:active {
     color: rgb(200, 231, 241);
 }
+.lg{
+    margin-right: 10rem;
+}

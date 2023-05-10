@@ -15,6 +15,11 @@ import { AboutUsComponent } from './userhome/about-us/about-us.component';
 import { NutritionalChartComponent } from './userhome/nutritional-chart/nutritional-chart.component';
 import { HelpComponent } from './userhome/help/help.component';
 import { DietPlansComponent } from './userhome/diet-plans/diet-plans.component';
+import { ForumComponent } from './userhome/forum/forum.component';
+import { LogoutComponent } from './userhome/logout/logout.component';
+import { ContactUsComponent } from './userhome/contact-us/contact-us.component';
+import { CreateDietComponent } from './userhome/create-diet/create-diet.component';
+
 
 
 const route:Routes=[
@@ -42,7 +47,24 @@ const route:Routes=[
     {
       path: "diet",
       component: DietPlansComponent
+    },
+    {
+      path: "form",
+      component: ForumComponent
+    },
+    {
+      path: "out",
+      component: LogoutComponent
+    },
+    {
+      path: "contact",
+      component: ContactUsComponent
+    },
+    {
+      path: "create",
+      component: CreateDietComponent
     }
+    
     
 
  
@@ -60,7 +82,10 @@ const route:Routes=[
     FiltertypePipe,
     AboutUsComponent,
     HelpComponent,
-    DietPlansComponent
+    DietPlansComponent,
+    ForumComponent,
+    LogoutComponent,
+    ContactUsComponent
   ],
   imports: [
     CommonModule,
