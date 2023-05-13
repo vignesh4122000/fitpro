@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./create-diet.component.css']
 })
 export class CreateDietComponent {
+  
+  
 
 }
